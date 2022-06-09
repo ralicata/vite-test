@@ -3,6 +3,7 @@ import './App.css'
 import { useState } from 'react'
 
 import logo from './logo.svg'
+import About from './pages/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,6 +42,7 @@ function App() {
           </a>
         </p>
       </header>
+      <About />
     </div>
   )
 }
